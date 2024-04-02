@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TheHomeChef | Best Online Food Delivery Service in India</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Background-Images/Logo.jpg" alt="TheHomeChef.com" style="border-radius: 50%;">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary" style="text-shadow: 2px 2px black;">Welcome to The Home Chef : Where Every Meal Tells a Story!</h1>
+        <p style="text-shadow: 2px 2px black;">At The Home Chef, we believe that cooking is more than just a chore – it's a creative expression,</p>
+        <p style="text-shadow: 2px 2px black;">a journey of discovery, and a way to nourish both body and soul. </p>
+        <button class="btn" onclick="Order()"  >Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Pizza</h2>
+                <p class="center">Experience pizza like never before with our best ever mouthwatering selection of artisanal pies. Crafted with love and attention to detail, our pizzas are made with only the finest ingredients, hand-stretched dough, and flavorful toppings that promise to tantalize your taste buds.</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary center">Chinese Food</h2>
+                <p class="center">Transport your taste buds to the vibrant streets of China with our authentic selection of Chinese dishes. From sizzling stir-fries to aromatic noodle soups, each dish is a celebration of bold flavors and traditional cooking techniques.</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2 class="h-secondary center">Home Delivery</h2>
+                <p class="center">With just a few clicks, you can order from our mouthwatering menu and enjoy restaurant-quality meals in the comfort of your own home. Sit back, relax, and let us take care of the rest – because great food should be enjoyed wherever you are.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo1.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="Our Client">
+            </div>
+          
+            <div class="client-item">
+                <img src="img/logo4.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="Our Client">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center" style="color: white; text-shadow: 2px 2px black;">Reach Us Out</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.TheHomeChef.com. All rights reserved!
+        </div>
+    </footer>
+
+<script>
+    function Order(){
+        alert("Sorry, We are not accepting orders at the moment.");
+    }
+</script>
+
+</body>
+
+</html>
